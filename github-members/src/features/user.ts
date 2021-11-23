@@ -29,7 +29,7 @@ export const userSlice = createSlice({
       users: [],
       isLoading: true,
     }),
-    getMemberSucceeded: (
+    getMembersSucceeded: (
       state,
       action: PayloadAction<
         SucceededPayload<GetMembersParams, { users: User[] }>
